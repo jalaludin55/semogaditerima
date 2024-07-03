@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script><link href="https://feeldreams.github.io/maukahkamu/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+<head>
+<title>Buat Kamu</title>
+<link rel="icon" type="image/x-icon" href="https://malasid.github.io/favicon.png">
+<meta name="description" content="HTML Bucin Malas.id">
+</head>
+<body>
+	
+   <div class="overlay">
+     <div class="loading-message">Hai kamu!<br>Tunggu dulu ya..</div>
+   </div>
+
+   <audio src="https://feeldreams.github.io/maukahkamu/seandainya.mp3" id="linkmp3" class="sembunyi"></audio>
+   
+   <section class="first">
+       <div class="wp"><img id="imgsatu" src="https://png.pngtree.com/png-clipart/20220727/ourmid/pngtree-love-sign-sketch-couple-romantic-png-image_6088740.png"/></div>
+       <img id="first_stiker" class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
+       <h1 class="title">Hei ratuuu!</h1>
+       <p class="flip"> sebenernya jalal itu? ☺️</p>
+       <p class="slide-up"><i>Scroll terus ke bawah ya :)</i></p>
+  </section>
+  
+  <section>
+      <div class="wp"><img id="imgdua" src="https://awsimages.detik.net.id/community/media/visual/2022/12/18/suzuki-hiromasa-37-memakai-kostum-ultraman-saat-membersihkan-pantai-kuta-dan-viral-di-media-sosial-foto-istimewa.jpeg?w=1200"/></div>
+      <img class="stiker fade-in" src="https://feeldreams.github.io/pusn.gif"/>
+      <h2 class="title"><i>Sebenernya..</i></h2>
+      <p class="slide-right">jalal itu ultraman <b class="lingkar">tauu</b> :) </p>
+  </section>
+  
+  <section>
+  	<div class="wp"><img id="imgtiga" src="https://cdn-brilio-net.akamaized.net/real/2023/01/10/1925209/potret-orang-cosplay-ultraman-ini-kocak-abis.jpg"/></div>
+      <p id="teksnimasi">Kalo kamu tanya kenapa aku jadi ultraman karna aku gamau jadi hantu haha:)</p>
+  </section>
+  
+  <section>
+  	<div class="wp"><img id="imgempat" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPIAAADRCAMAAADBjh8OAAAAk1BMVEX///8GBQXl5eXk5OTm5ubj4+MAAADz8/P29vb8/Pz5+fnt7e3q6urw8PDr6+v39/eOjo6bm5u2trbExMSsrKzX19fR0dFsbGyTk5OhoaG+vr7d3d1zc3PLy8tKSkqzs7OFhYU8PDwpKSleXl5WVlYwMDAXFxdFRUUjIiJ8fHyIiIhkZGQPDg5wcHBYWFg3NzccHBz/Q8ZTAAAb9UlEQVR4nOVdiXqrKhCmaEAFNPuepkmbtmly2r7/011QVEBwydKzXL/7nblt6h9GYH4YZkYA+OX5vs9FyCXlMoI+JFwGXDIuMZeYS8ZlwiXhMuKS+r4Xcsnv9mpgEgtM0AHGawcTSxhawkApaQaXwkTpL//fKkP1S2pU9m7T1gwGWmFAR5gYdlMZtlTZS2xthfmXWGESrwpjVVmHARImdMNYVS5hcpU1mMgDHr/EJz3PSz/hMhaf9Lye+IKAy/QLuEy/gMu0nZ7XS7+AS3l7Ln0Dhigw2ICJDRivCkMNGCZh8lYJGCJhaBUGKspxGI+kw0kdRmX/Z880aDlzYGUY+bEFBksYJmEIrMB4DphbTLUMxnf1v1Nl68ypqgxjC4yisqepDCsq+wZMk8oqTFVldarJXg59+SC4TGcOlyk4l1jKtK1cpm3lUqrsy+dqg4kkTGCBSSRMVIUBEiZUYIiEUVvVASZWYKwzx+syc6B95oQSJrHAJBImUmAUs2BaFwJK64JN6+I5rUsOo1sX4B7y/zgv20nKwi5WkqqdOe1JqsLLdyKpkF8+pZT/T8QFCTPJuAykxFxiLhmXAZeEyygMAZc+/xHQTOYwQhIFzgXDSphUShigwMTtYUIThtphElrDy56Vl90zx8HLno2XmdeVl+3WxWu0Lr6i3P+Zl2EtL3v2CRgbTGiZObEFBkuYZl6GVl6usS4aL9cugcWQD/V5bJs5WJk5STlzUinmcQcYh1lI4WgJF4fqBCytiw3GmM/1MKB+5njmzMkJNZQ/GzPHsqIVvOyEycwC9Q2zYKP3yALTkpd1IwXcQ76Rl4mTpFIYPrP+YF6GcshDOeShnDkw+xIPetmXQDlzoCRUKGdOJh0wSQuYsAoDJEwoYaISBuYwgQITV2GgFQZE/IoJIZmMhQy4ZFEUip8x/xlLybgMpEy45H8di9v43bEFJslgcjgrTFALQ2wwiaNVJgyLNbgSBvBnkg15KIc8lEOeikfI57PsGg/KmQPlzIFy5sCevD2DYdIs5DBQmoUMBksYJmFiCUMljFfCZTAxoxqMlw5iAYMVGGLAQB0mV07COHk5HQ6/n5fh7XkZuoZ81i2BV/Ry08zxDJhYNwt5L0te1mFyswDrzYLNukSyVQZMzw1D5MzhIh3qhsRcYkUyLgMpk+y2/HZVdoEJ3DBJRxhHq3QYoM0cbcinE1B7pjTMhpE5c2DdzOG8bMDw23IYu1nIxp1iXYiEM2HqrQu0GyngHvLVmeNR7+/bL/tWXu45Z47Xkpd7NTCJCeM5eVnrZTcvW62LCeMVg8WwLiDhF2GMcREYEhNGsEXyT0lQyCAU8mqYTP4ETGGxHTOnYrEdM8crZ46Vl02L7eJlY8CY1qU6YOy8XAvj4OXQ7dT96/fLsDrkc1629nKVl41eNnnZ1csmL+fdk8O0si5ehZetvazD8BHOAn5JiRWJayRTZFCVN4IJ7gEDus0cr56XoZWXa2A0swDredkCY7Uu0ORlqPFy+st/zY+d/nnDfrns5XzI1/eyMXNMXjZgano5J1RHL1uti6WXdRiPhg4Y2cv437tCENV9XLHYxsyx8LKnEqrFYmu83GSxPRyoA6bKy43jTuNlh8XWYX67H9v/7bzctpehs5clTDteNrrnR3r5pyZYhyu5Lzzo+ExzU1tjsUFri+3bLTbzr7LYDl4uLbZ9yJN8AmZfcidepvYJCH/Aj11dfekrWubZV1/2mVP08tWrL6t1uX711bwoxhFIale3FyyKFRnULJLbLtUb1to6TIudlB8Aq8W+dCeVAG0nZQ4Yx06q3mJ32kn9dl7+nfvlTl6Rtquvu3tFdF5u5RXJh3zSfgYZMyVRf07sM6kKE5oT7zKYyvzNfGASzgoD3EO+did1mYfT133DMDZck7GEcZ2ftPNwZke9lpPHH9wv0xyGWoOTm/bLpCsvUwlTy8vtTiuUY4YuXpGejEJUjgs7nVZ4rtOKWp+r+7TCcfpz4SlQBYYJmbhhcO1hUpvWtDgpM86k3CePsKWH86qTR984MvSbTh4r5yd1J4+/k5eTtrxM4E/wsiOKQPJy6ygC12kFjUBv1WOYXhRF0GxdaqMIYhuMGp3R/VDYGuShTsQQjJ6RuF6W4r4cznG2bI0V6X7iHRetABYYUD9zro0IYkAo/PDwwP/9HpEbRQQVMJdFBLmH/NW87FHivwp9swuhkcnLGgyBPxj3dWF0X2PUva9qLHR2RPe1Ct5Xovu866L7Yn6FURjROM6CL2MZLRnL4MtYRk3GMmoylsGXcRY1GWeS357FcJYwJAQHVWOu81PUFobiEkYEX5atsrWGGTBxBiPgYqVVGcztInUrMDH4pWv8gL7CPFKX5oRqROq6QmwhMyJ1vcsjde/Hy2xiaPyAHsKcl+PWcV95a27Hy5aoe3XmdIi6N/NVol1FZRTmUfd5Nhz1m6LuteB9r2pdukfdW4Kp1ejnmtwKW/SzAgM2psZcZWAGURPsggltod2gOUI8rsLoMdnAPeQ7ZtCEgQFT6eQH9AwqMKElzVNONcjUwd2UiNM+g8Y95DvyMhbnSwrMqKLxAxonFrPgnoDwd/By13wVjoflzLF08hm3zIZrFXV/cTZclk4EQp/6QkZcEi4TLvnMAZhLLGXAJeNSjEYiJb/L53eL5CY/gyEpTDy0dDLCKkzihMlTrtJWEdkq0ZrAaJUJE0sYmsEABSYulLtVZqs5jNjepvIqKDeP7TJbYSVBtlUGTXHW83O8DGyd/N7Kj03V1vgEmu7wTrzMSDters1Sb5cNB96NpSbi/02vyVLvlGtbn6WuPFu+NMp9EH6txfYLUwvlM4USJssapvior67RfI5QEBsDxgGTD2pYdI0vLbZvtdh+Me6gHDBaaxTlFIvtoIXGYWRPGloMR08LfQu1A2BFE4dZaMhs7Vpxwm9FUrfdL6MNGSK9k5fY3tbflyflqO9gSy9v5uWoj5ChMcI6vUuvSM+5X3as+u1Z6u4aGA5edrj7+Ng3j+Fauvv8zXxg2K6TljTEbwtwxd1Hs5A86HD3eZe5+6xeQwdJJRTWk5S74gQDa3OfPIlKpy4W3rBRTA1eFgsU92GrT/SpVg3lKEgK1MwRWMvLTfHYEJLEpjIl48fKpvEI5J4eQ7p5FP7OzSI2eJkCq8rWIhsBgRep7F0Uj10e/1Pb+XK8XCwrCy8+mTmaHJGxmOgIfbBu8dhyv0x8Y2C3iiIwYpTALc0XneClYbxSnYcKzKNYlvRr3X0yl9CvN1/wQvPlHvIXkVS4ekaDaje/KDCrb7QfNMCkrQFYIylqtob+huJXtjXE5jwcLKrd7Jcw4S+0ADUwuXXpEb3IBoE3WYpkLgLXgtNdnsa94IwQGFpUPpUwQf+FWFeKFJPJaDmaMpK3xrrgVFrTYsEZVhect95WsBOJTGeu0HmQBQxu+0uwHNm3Fd4JZddHQm+2rbC4+26+eVxtptw+VXUeitswe0S7bQ+EhJqbRzbO7R6XQ+Y8bA3Swe0mqWan7rUugopzrXc8DNDZ4t1cpW1lyxna9M7rCdWXInSqHV8t8o2uvfiVx+pd97VuNLOujKx2k/ipC7XqCKLUz4vlGFVucg8OBk/IXH8JNc6RmIj8W8br/o5TdaLBkPG3tvmaEqU1kWxNxRHEb1dhYqWET+lPKkv4pBIoQ/427j4wnqP1yEbOa5LCBIMxA+OtycszfSvy61buPvgDxa966z6Lnl+fK+R8YjBT2Qbjm26UnEeu3TySuxS/Mkor8kEaLZ4rhxVoS7OtxXjiR3gxYQWM+DUxtyJCxVu47nvW4lc15WkuOqDBpyfUj0z31y6QJyujUQzexCa6gMEheDFVZheW8LEc0OgwNyx+paxow+FwGO00/xd6iuREDKIxSLh5Fn+e8zIxd18IMbt1ucEx3LW8DO1OXZ+MR+psFm77dFQKwz8YDSdPaAJKdlma1g59YnCvIKgrj9T9wAhGKWCi/pemchYERZdTANarwGeb71mpMv4wVR4TYOHlypE6vOBIPQuciLLYgihKuGRcBpkMMf8YK5LFMQ2iKAtREJJksoARM0ZEMK3G00BdhKFNIGCCF75vXAgYtjpsAZMwwc402AmfeCyQrcpbEzhaI2SitCoNnCiV0pUDypCvCSyrxJs6PE0QBKxwo5GjqvKSP2MOgz+OqwVNTyCDxaSAMSgNLUWrSCxbpYWttg2+8xwxfMA95J0zh9XzcgFDt6rKkwSumICZLp7TJ00gmUgYPzZ8oqd7H7ZeH+pmLU/jT9VVMwimaM3hBsL19ZTBQAnjE90RnJq224e6yRD0K8rTOKrclHGREKn9FvGt0heYnoUfCI0XIApwARdFm36pMzqHl9XeqSnhowQ0lg42e9hqZz+2ErbqKSr/mjLwzVUtNoij3eMYl1lmlHi5zvyvaFPYqnd7P/ZNgpOHGkshdBAdLH98Er84YtUdnm+/0L7w0zh5Ob5p8at0htwgBJ2AV5N5tB8WLx967Hhh7dCAVbyxNwxBT4e6qC+TZgQkgZRYkTiRmQJcpjPHkPzuyAITzoxOllf+G77B/GZMwuCERLj8bBykMALHbBVuaJWjNaUE6sNoUZ6mQzqJGhKEdqfd1+Fw+HovvD1jwMf2XDULrODxdIVdTVZL521Ziov+QPGrdvvlHEZjnTFIs9DEn6U7CP4LQr/QDKQb2gyGlg9JEPOPJPN2SA1TZ449NUzz7AqizWF6wrOPvjGDeDQASgg66SsWfnp5alhT8asLqt20KU+TEK2TES7zgcMPYcnROuQ/ajCRcsqBdrZSPlkrAiGTlmnFlgRAV5qn+xiuVZqntr5+QI9MSRqaP6VD21PNgoCh2i1D1boE+X6Z9CQvU+0YzmVdPPZzvEx1RuqT4nyZTrMhjx6BEQSlbS04OSu83MutS/WQpp6XYQ0vdz9srUvZBluNktGSFr1MF/PCZovBkpsFagR9oq3tsPWylG2d3tOJyS8pukg+MbByuyrDo64ywcVt4UuxrqQBDvLbcGQuXPZhcEmrLK3RPwb6w/CanqnKy4w6yy9gfZCipIQJP3NvCerTjFAph0sq3n4+NGzWxVlk4yeKXxE3L+MXXeWohJnMg3w18oLz/TIg36bGwu99f16+XSkV/Kmp/B6WMEuSLPNuTkPS4xj3jtXDDf6ggnzV36qXG0qp9O5c/Cpa69Y3LD9K+GzK1xzo0Y9C0v+yKCw+je/StjuVRQJzvZfzqsR5Mm/utka78dxyfCU/nIBe4Ley2F6X8Jg7BSdvDfNVxn2lMLR0B7gUTlcj+Wi8qR/7PiXO9MwKrrLRy4ElXruq8hgEtJFDtNVXQy/3iuJXV3CzcXsBs9J5OQqM28CxWWe0SOzfCrq2RpMXWezmcoWEGEuRKkw10KCi8jw7scjXg17eGuiw2C13Uu4hf/F+OaKQMF3lKagQqu+exIXKDCi87EXePXj5VqVH41hXeWiB2RZuIYfyaEFU69K2yEbD6qtn7kq7lHSt2ZUmeoonmgdVGDB+OZwzd9iXXeVhVN+aKOiwgy8cATcsI0wVGLDUVZ4x3WLnpjbCq+nUCwL7UqTwjHQoI/yjRTZIWMLobqAHdMDlm4ZyOAHDSPrtlmRBcRcFdyqyUfGKOE4r2panSZ+gHt/zgPJ4bG51Q1AeM0h6H9hUFnmwdykJnhju3qSU0ktckdJrnMvUa2zAhObmdxNqt+swyZNV5c9IbVXb1tT5slPlNIt9s/L+pofjAQ3s9J7B4ErAVHYPrT15dHs4G04ebUO+OTi5wY/NzG4Tji5n0hDEB6vKmzQiV90v1+UedeVl/YDOd+erNEQRSF5mlWgXFNa8qoO8WlRGKKu8cvtXdRjHsAHBosrMdae54FdlcYFGzA0T2NYi6AUoZ8uB3proive6WE4e07efVk4eHWf2FFpOHvkWWPfr8NXGjGi8rMEw67heqNaFOOMa6njZHh5h4eV0ZXvNfnkzjU7aISO/Hpm6X9aTeXtWlSf3ivu6uviVEd0n5/Nmux2xnG7RElPWk71sKX5lW4lwVm4To+TVRxEQXz0LVYpfGeFRIrqKSYlD8UqyWLySTERXxTLKKs6irEgW+2WLshLV1/MlGBoGdTBsa1P5M5LBWkprWAlTgSsi0aSkekBblAe0pemNjvz12vI0aU9TZovULWDouFA562FHwC+1Lb7QgtrjDVWY2kjdSrzhLYpsQFof91WoPKojVKoesipTmf6Fxa/8QuUNtsJkZjbAtrQEJGKIa6Pu2xe/shTZuOIFpnXlaQo3J6LVN4+SdPs/WQ7Wdi822oD2LzCtiRC3vMC0fQZN99fUFipXXlMb0tHi+HLW4mUMlXcFTLs8gPaRuveM+5IWmy+w1WLRCVjN32qUlSp/g3vx8j1fOS0tMd9GKa+chmTXoK3UObBalxu8cjos04mMrKQwyHOlKPX5zEmzkoIOWUlE7qfQKE6rVqU5VCE4tfDaP6QmW8vckq0pYPLW1GRu2RPAgN7/TZmtnV4fT9bSf4k1GNu2yabyiDZl0Fz4+nj3kL+6KCXODtuEry9QYKonyXaVh/S38PIFRTbKmcMy5dCAajBfLVUe03ZFNhp42a/wsu8oT2PkLmOZLSyyhmUEgZYtnBt+LVtYOuaHWSq0hMFvbXsZlBnV/qUZ1SEDFZiSpGBLkrIWv6qSFCRYUbkkKWYmgblU3lp4uYakrJmtkPwoLxOZxihSQ1SVLcvLGpV/lJftWeru+g4mL5NpzlFA5WVi9eA6BrZRA+N2xa/u80aDfL3JTW8GQzL/XblvMiK0DZWXGUlF7Lqw1SanLmxJUm2GkaKyBlOEkaDRaLRczI/2tYnYPXYiqYbSeq2LX5kb3S4q50vspV1lhPy0AA2uFKLNPu4Z+2X3UuS2+2X7RrcVLxe9PPK1jW6pci9zT1oP4dAr0/fLCY3zeXxlsej7mS8mVREhBDbzxReiWTJvZHVj78E9zFfv9iTlK5WTV4rKCkn9UlVOJ6DNhqMDuBdJdVe59VIklEsRVWXPZzNF5SxPCtvCGfdqa9qW8HEWv6pbihR1ZRp7GdapnMLsKiqzqFx9SZUFTHUNirKoe+iTqE0vVxecmspQt8vAab4uq92nbCsyQ4WWvgbzZpgv6vmjSrm/YWldIr93zbbi7sWvVBh/KdfYBUmla4ciHBt5OQwNhzM9p111h98lmffGLgK5iIM9U+U0aKJwEaAezGHEn6sqn0X3sFi21evkIpCtEZ9nrbK5CHwqK9jSbB5LmZWnAbI8DUjrFGflpqifPVcqX7iaVk0uYAiTZjZ7owEaxjmMOH0My9O5FVVg1BBI9CVak+/4aJBtZ9ViOWVrmGwNUVojVfelUlRRKvFv5e6jVV7mMOmmSd9WwDKpGTGl+FVxtJF+8sys1kWUPggAaHT3/Ujxq+rMEV2UqmFsHsuTVdRTkoZi9ZQGrYktmTcarp+PS3IDXr5t8SuocN0GPRQugnQU8lFZrqg5exH+50kKp6UmoEFc+NzTEgw0CILpLNt3vbdw3VfypMziV5azjMsOaEAKA/jHU7LhewaYqYx7CfV7y3Th2VNUXorQmLF4skuqhU2hMZNvKSGi5h0Z9cuUWBH2W3dAYxwXmadPZpGNK8vT0FFa3mpF6TgCT33cS333qH9aETAaPI8mY288UbbLi8UArwZ0u+S7yJWWI+n1eqDnc2u3Gh4fH/RdNafzP4aX/emyNwfTYLjZzMBw+7REqXp8IbUfTRdfixMiazVwBqH14mX2uX7a7AZPmvV6nw5JQJcftnMcvsW6CS93K36FVV5OABnHMcaAsNnmcTtFH/3+aMZOT8/Dw1l6dfdockJvT2iIDuj7tWz94fEVHd5e+jM01Tr57Xmwe7M7TBDqk+KAv9517zpSz17IQ7u81wdHRM7nmISTFTySyTFYj+bk8+19idDj0/54PD3t0Vw66RH6RC9o/3raP7weVC3Oj2j//Y4e0OfDi1auFLnTTFCEy1blbxmSrZHzuXjLEFWUymWr4leuDTlfwJNe72n6eZg+oBPvpvkRzbhVfURn3qM7/q9MDUKvz2mte1G40RikD/lDaXEuJ/+Sr91FK+T7gm9Y/Cpx8LKMXloRypZcovn243v7hriyvPk7tHtH+zO3vaKexit6LdrZTp8GZdN/z+wYbaYxGTFAQ+bfpshGNuT9ItQNaqFu4rSC0U34MR/4ZPmA4Cuac64suiv/nxsoqWv8mW06z1+z9ftmMz4sxuPBPM6iwFfm6yJjvybULY/9y1+UF6exf2EQ2wIaQzAm0yXYDkeTI+/cxel4OCG0F/+db61jRef8oe7R+9tnf/aw3L/0F8F6w1c8G8xIMAmd7ySUMlMq4+VKmXVqBJbJnp7CPhluJ4PjaTg7D9Dp+5QWu75Dp9bqvnt7Owye0fH9tEHr43I6m2w29MPb+HrYqmGkuhXZoNOUBo6jxdvb+Hkx+8Un7+uCP/BKwfMfUppfZ/Tr6/ER7ZbobffytDwOH4c9sZ8zeTmh0MbLtcWveqQHVwMwXY2Px3d02HMj9cpXFK8I3cYuXap3ZucPi1e0332OT69jNAwWE7D09RB05punFY3Fr8LVeNyfHEfbj9n6cHh9P3x8t6aUH7h4W17F01/zpd78aXcaLQJGsVuprPhVbToJ9I/HUf9w2HHD/Mgt83n3B+lbXNx6oh1nSPQ46ydgvIpX1GqkGpN5A7GlOJ6XL/t3zrfvuzP6YUvV5ULvr/s39HZeP6+3w/F21J2XhZUe4RVaHdHik89gMXf/VG2zK53a57MY4e/9j8WUQGw3Uml1G+M99UIShslgO3o/zdD+4+Hzz9ZWuxA6vH+t2exjNcE25SQvmxlUkI7AdPT8OBSW+f1P71/jEgNyyAl0uRULb9iq+JVPvd4img33L5/VrcBfcInxPT+h03CxAeGStih+BYZ8NTM7zJ8PLSNZ/sBLDMzT4jhnTxNRNj92FL/Ki16Fi/XixPdCf9l4rlyIbwD2p+lg2eszJQ+4ksw7oZPNer8w037+yovv8NDrbLZ6my59Ny/3xvS4efx6+/7Le1heXOn9cbeerdxFNpj3MX/qP8z+DYXFxWfnCS2XRPJyXmSjuLzpeP/6ZXnrxN98IfTV30ZKwRzVYsPJkxj+v7uNN7/Q29xV/Aqu1u/nu7s3fsMlEt4dRTbIy79gqKuXzPG3Fb8Kn/8du6VeCKlzWbfYLfMe/rYLIaZYbI2XbfmW/8KVq2zhZctLk/+JK1c5W32pdWVsIWf/xIVQqBSYVS12c3Gmv/RKScoaj00f0b96OXmZkcl4MBj0+/05F3OLHCiy3yznAzdcvxlurvxsa40NzirnwCh+lQRJQDKZiDrM4jiWD/uoRgpPkjjFDdzyj4JhWbGc1PdV4+HsWPzKLO8f6wcfevErR60O9ztbb1je/57JvFUYe5ENDcZzwNyyyEbbV3V0KX6lwlh7ufLK6WKw1Lxjo/0rp2thOryQBRvlaRxFc9rAtKi9Uz1MuuqFLMqZlHy2NSePF792R8IkLWDUqlW9eutyn+JXN4rHhu0CqZtg7vNypf+Vyv8BA6Oit0d5exwAAAAASUVORK5CYII="/></div>
+      <img class="stiker fade-in" src="https://feeldreams.github.io/bunga.gif"/>
+      <h2 class="title"><i>Intinya,</i></h2>
+      <p class="slide-right"><b>Atu Mau Gak<br>bantu jalal melindungi bumi? 😍❤️</b></p>
+      <div id="Tombol">
+       <a id="By" onClick="fungsimau()">Mau</a>
+       <a id="Bn" onClick="fungsigamau()">Gamau</a>
+     </div>
+  </section>
+  
+  <section id="iniakhir">
+  	<div class="wp" id="wpakhir"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq9TFDzrcWMXoV87Z_4o5ZTKPbZlqWEOY5Cw&usqp=CAU"/></div>
+      <img id="stikerakhir" class="stiker fade-in" src="https://feeldreams.github.io/g5.gif"/>
+      <img id="stikerakhir2" style="display:none" src="https://feeldreams.github.io/emawh.gif"/>
+      <h1 id="judulakhir"></h1>
+      <p id="kalimatakhir"></p>
+      <p id="palingakhir"></p>
+      <div id="TombolWA">
+       <a onClick="menuju()">Balas 💌</a>
+     </div>
+  </section>
+  
+  <div id="initom" class="menu">
+  <a class='tombol' onclick="tes()">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/> </svg>
+  </a>
+  </div>
+
+<script>
+function fungsimau(){
+       fungsi=0;tes();
+       teksjudulakhir = "Yeayyy! 🥳";
+       tekskalimatakhir = "Makasii udah mau bantuin<br>jalal jadi penyelamat bumi, hihi 🤭❤️";
+}
+function fungsigamau(){
+       fungsi=0;tes();
+       teksjudulakhir = "Yahhh 😫";
+       tekskalimatakhir = "Yaudah kalo Atu gamau,<br>biar jalal aja yang<br>nyelamatin bumi :( ";
+}
+
+teksjudulakhir2 = "I Love earth & you hehe";
+tekspalingakhir = "Jangan lupa balas pesan<br>ke WhatsApp aku ya! ✨";
+  
+pesanwhatsapp = "Atu mau kok nemenin jalal jadi penyelamat bumi ><";
+
+const body = document.querySelector("body"); initom.style="opacity:0;bottom:0;transition:none"; audio = new Audio('' + linkmp3.src); function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-heart"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-heart"); if (heartArr.length > 100) {heartArr[0].remove()}},100);
+</script>
+<script src="https://malasid.github.io/html/maukahkamu.js"></script>
+</body>
+</html>
